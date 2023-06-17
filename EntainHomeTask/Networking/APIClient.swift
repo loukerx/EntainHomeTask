@@ -9,10 +9,7 @@ import Foundation
 import Combine
 
 struct APIClient {
-    // move to plist
-    static let baseURL = "https://api.neds.com.au/rest/v1/racing/?method=nextraces&count=10"
-    
-    // pass in baseURL, for testing
+
     func fetchRaces(urlString: String) -> AnyPublisher<ApiResponse, Error> {
         guard let url = URL(string: urlString) else {
             fatalError("Invalid URL")

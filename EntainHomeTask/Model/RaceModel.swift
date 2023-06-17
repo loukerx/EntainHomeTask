@@ -5,7 +5,6 @@
 //  Created by Yin Hua on 17/6/2023.
 //
 
-
 import Foundation
 
 struct ApiResponse: Codable {
@@ -24,9 +23,6 @@ struct RaceModel: Codable {
     }
 }
 
-// let raceForm: RaceForm
-// Which is not been used. The hometask doesn't require that part.
-
 struct RaceSummary: Codable {
     let raceId: String
     let raceName: String
@@ -35,10 +31,6 @@ struct RaceSummary: Codable {
     let meetingName: String
     let categoryId: String
     let advertisedStart: AdvertisedStart
-    let venueId: String
-    let venueName: String
-    let venueState: String
-    let venueCountry: String
 
     enum CodingKeys: String, CodingKey {
         case raceId = "race_id"
@@ -48,10 +40,6 @@ struct RaceSummary: Codable {
         case meetingName = "meeting_name"
         case categoryId = "category_id"
         case advertisedStart = "advertised_start"
-        case venueId = "venue_id"
-        case venueName = "venue_name"
-        case venueState = "venue_state"
-        case venueCountry = "venue_country"
     }
 }
 

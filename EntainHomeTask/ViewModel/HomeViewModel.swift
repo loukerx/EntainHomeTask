@@ -9,7 +9,8 @@ import Foundation
 import Combine
 
 class HomeViewModel: ObservableObject {
-    @Published var raceModel: RaceModel?
+//    @Published var raceModel: RaceModel?
+    @Published var raceSummaries: [RaceSummary]?
     private var cancellables = Set<AnyCancellable>()
     private let apiClient: APIClient
     
@@ -18,7 +19,12 @@ class HomeViewModel: ObservableObject {
     }
     
     func fetchRaces() {
-        apiClient.fetchRaces(urlString: APIClient.baseURL)
+        guard let baseURL = Bundle.main.object(forInfoDictionaryKey: "APIBaseURL") as? String else {
+            print("API URL not found in Info.plist")
+            return
+        }
+
+        apiClient.fetchRaces(urlString: baseURL)
             .sink { completion in
                 switch completion {
                 case .failure(let error):
@@ -27,7 +33,13 @@ class HomeViewModel: ObservableObject {
                     break
                 }
             } receiveValue: { apiResponse in
-                self.raceModel = apiResponse.data
+                let raceSummaries = apiResponse.data.raceSummaries
+                // ordered by advertised start ascending
+                self.raceSummaries = raceSummaries.values.sorted {
+                    let time1 = $0.advertisedStart.seconds
+                    let time2 = $1.advertisedStart.seconds
+                    return time1 < time2
+                }
             }
             .store(in: &cancellables)
     }
@@ -35,5 +47,4 @@ class HomeViewModel: ObservableObject {
     func refreshData() {
         fetchRaces()
     }
-
 }

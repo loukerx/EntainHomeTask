@@ -54,6 +54,7 @@
 		EF0553B32A3D965100C0E4FF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		EF0553B52A3D967A00C0E4FF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		EF0553B82A3DB29C00C0E4FF /* TimeInterval+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Extension.swift"; sourceTree = "<group>"; };
+		EF0553BC2A3DD1E200C0E4FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +112,7 @@
 				EF0553AB2A3D951C00C0E4FF /* View */,
 				EF0553AA2A3D951600C0E4FF /* ViewModel */,
 				EF0553832A3D948D00C0E4FF /* Assets.xcassets */,
+				EF0553BC2A3DD1E200C0E4FF /* Info.plist */,
 				EF0553852A3D948D00C0E4FF /* Preview Content */,
 			);
 			path = EntainHomeTask;
@@ -480,6 +482,7 @@
 				DEVELOPMENT_TEAM = H5FMC68YF4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EntainHomeTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -509,6 +512,7 @@
 				DEVELOPMENT_TEAM = H5FMC68YF4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EntainHomeTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

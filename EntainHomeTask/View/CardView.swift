@@ -6,11 +6,12 @@
 //
 
 import SwiftUI
+import Combine
 
 struct CardView: View {
     let raceSummary: RaceSummary
     @State private var countdown: TimeInterval
-    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    @State private var cancellable: AnyCancellable? = nil
     
     init(raceSummary: RaceSummary) {
         self.raceSummary = raceSummary
@@ -33,18 +34,24 @@ struct CardView: View {
                     .multilineTextAlignment(.trailing)
             }
         }
-        .onReceive(timer) { _ in
-            if self.countdown > 0 {
+        .onAppear {
+            // Start the timer only when the view appears
+            let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+            self.cancellable = timer.sink { _ in
                 self.countdown -= 1
             }
+        }
+        .onDisappear {
+            // Cancel the timer when the view disappears
+            self.cancellable?.cancel()
         }
     }
 }
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        let mockAdvertisedStart = AdvertisedStart(seconds: 1687010980)
-        let mockRaceSummary = RaceSummary(raceId: "1", raceName: "Race 1", raceNumber: 1, meetingId: "1", meetingName: "Meeting 1", categoryId: "1", advertisedStart: mockAdvertisedStart, venueId: "1", venueName: "Venue 1", venueState: "State 1", venueCountry: "Country 1")
+        let mockAdvertisedStart = AdvertisedStart(seconds: 1686997140)
+        let mockRaceSummary = RaceSummary(raceId: "1", raceName: "Race 1", raceNumber: 1, meetingId: "1", meetingName: "Meeting 1", categoryId: "1", advertisedStart: mockAdvertisedStart)
         
         CardView(raceSummary: mockRaceSummary)
             .previewLayout(.sizeThatFits)

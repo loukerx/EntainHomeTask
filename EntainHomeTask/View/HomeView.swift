@@ -19,13 +19,9 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             Group {
-                if let raceModel = viewModel.raceModel {
-                    List {
-                        ForEach(raceModel.raceSummaries.keys.sorted(), id: \.self) { key in
-                            if let raceSummary = raceModel.raceSummaries[key] {
-                                CardView(raceSummary: raceSummary)
-                            }
-                        }
+                if let raceSummaries = viewModel.raceSummaries {
+                    List(raceSummaries, id: \.raceId) { raceSummary in
+                        CardView(raceSummary: raceSummary)
                     }
                     .refreshable {
                         viewModel.refreshData()

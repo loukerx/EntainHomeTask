@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0876625D-148B-4886-A3E3-79D0CE6E77E1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BCD9B6F9-17FC-40D8-BAC7-309D5B8A7999"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EntainHomeTask/Networking/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "fetchRaces(urlString:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97CB1761-71A4-4FDD-9312-16EE00C77C3C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EntainHomeTask/View/HomeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "97CB1761-71A4-4FDD-9312-16EE00C77C3C - 89572805b9077a24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #2 @Sendable () async -&gt; () in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of SwiftUI.View.refreshable(action: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0, SwiftUI.ProgressView&lt;SwiftUI.Text, SwiftUI.EmptyView&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in EntainHomeTask.HomeView.body.getter : some"
+                  moduleName = "EntainHomeTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yinhua/Documents/Developer/Interview/2023/Entain/EntainHomeTask/EntainHomeTask/View/HomeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "97CB1761-71A4-4FDD-9312-16EE00C77C3C - 89572805b90779a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #2 @Sendable () async -&gt; () in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of SwiftUI.View.refreshable(action: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0, SwiftUI.ProgressView&lt;SwiftUI.Text, SwiftUI.EmptyView&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in EntainHomeTask.HomeView.body.getter : some"
+                  moduleName = "EntainHomeTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yinhua/Documents/Developer/Interview/2023/Entain/EntainHomeTask/EntainHomeTask/View/HomeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "514F110D-D03C-4238-A4F1-E076FF1D0E07"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EntainHomeTask/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "fetchRaces()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "514F110D-D03C-4238-A4F1-E076FF1D0E07 - 477cc7d367cd8ecc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (EntainHomeTask.ApiResponse) -&gt; () in EntainHomeTask.HomeViewModel.fetchRaces() -&gt; ()"
+                  moduleName = "EntainHomeTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yinhua/Documents/Developer/Interview/2023/Entain/EntainHomeTask/EntainHomeTask/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "514F110D-D03C-4238-A4F1-E076FF1D0E07 - 477cc7d367cd8f86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (EntainHomeTask.ApiResponse) -&gt; () in EntainHomeTask.HomeViewModel.fetchRaces() -&gt; ()"
+                  moduleName = "EntainHomeTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yinhua/Documents/Developer/Interview/2023/Entain/EntainHomeTask/EntainHomeTask/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  uuid = "514F110D-D03C-4238-A4F1-E076FF1D0E07 - 7b77cc295d9bdc7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (EntainHomeTask.RaceSummary, EntainHomeTask.RaceSummary) -&gt; Swift.Bool in closure #2 (EntainHomeTask.ApiResponse) -&gt; () in EntainHomeTask.HomeViewModel.fetchRaces() -&gt; ()"
+                  moduleName = "EntainHomeTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yinhua/Documents/Developer/Interview/2023/Entain/EntainHomeTask/EntainHomeTask/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B39576BA-9315-4095-8C04-FAAE21C8F9CB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EntainHomeTask/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetchRaces()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
