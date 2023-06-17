@@ -11,7 +11,9 @@ import SwiftUI
 struct EntainHomeTaskApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let apiClient = APIClient()
+            let homeViewModel = HomeViewModel(apiClient: apiClient)
+            HomeView(viewModel: homeViewModel)
         }
     }
 }
