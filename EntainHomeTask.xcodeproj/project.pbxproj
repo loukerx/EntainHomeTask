@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF0553802A3D948C00C0E4FF /* EntainHomeTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05537F2A3D948C00C0E4FF /* EntainHomeTaskApp.swift */; };
+		EF0553822A3D948C00C0E4FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0553812A3D948C00C0E4FF /* ContentView.swift */; };
+		EF0553842A3D948D00C0E4FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0553832A3D948D00C0E4FF /* Assets.xcassets */; };
+		EF0553872A3D948D00C0E4FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0553862A3D948D00C0E4FF /* Preview Assets.xcassets */; };
+		EF0553912A3D948E00C0E4FF /* EntainHomeTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0553902A3D948E00C0E4FF /* EntainHomeTaskTests.swift */; };
+		EF05539B2A3D948E00C0E4FF /* EntainHomeTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05539A2A3D948E00C0E4FF /* EntainHomeTaskUITests.swift */; };
+		EF05539D2A3D948E00C0E4FF /* EntainHomeTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05539C2A3D948E00C0E4FF /* EntainHomeTaskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF05538D2A3D948E00C0E4FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF0553742A3D948C00C0E4FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF05537B2A3D948C00C0E4FF;
+			remoteInfo = EntainHomeTask;
+		};
+		EF0553972A3D948E00C0E4FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF0553742A3D948C00C0E4FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF05537B2A3D948C00C0E4FF;
+			remoteInfo = EntainHomeTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF05537C2A3D948C00C0E4FF /* EntainHomeTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EntainHomeTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF05537F2A3D948C00C0E4FF /* EntainHomeTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntainHomeTaskApp.swift; sourceTree = "<group>"; };
+		EF0553812A3D948C00C0E4FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF0553832A3D948D00C0E4FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF0553862A3D948D00C0E4FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF05538C2A3D948E00C0E4FF /* EntainHomeTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntainHomeTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0553902A3D948E00C0E4FF /* EntainHomeTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntainHomeTaskTests.swift; sourceTree = "<group>"; };
+		EF0553962A3D948E00C0E4FF /* EntainHomeTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntainHomeTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF05539A2A3D948E00C0E4FF /* EntainHomeTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntainHomeTaskUITests.swift; sourceTree = "<group>"; };
+		EF05539C2A3D948E00C0E4FF /* EntainHomeTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntainHomeTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF0553792A3D948C00C0E4FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0553892A3D948E00C0E4FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0553932A3D948E00C0E4FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF0553732A3D948C00C0E4FF = {
+			isa = PBXGroup;
+			children = (
+				EF05537E2A3D948C00C0E4FF /* EntainHomeTask */,
+				EF05538F2A3D948E00C0E4FF /* EntainHomeTaskTests */,
+				EF0553992A3D948E00C0E4FF /* EntainHomeTaskUITests */,
+				EF05537D2A3D948C00C0E4FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF05537D2A3D948C00C0E4FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF05537C2A3D948C00C0E4FF /* EntainHomeTask.app */,
+				EF05538C2A3D948E00C0E4FF /* EntainHomeTaskTests.xctest */,
+				EF0553962A3D948E00C0E4FF /* EntainHomeTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF05537E2A3D948C00C0E4FF /* EntainHomeTask */ = {
+			isa = PBXGroup;
+			children = (
+				EF05537F2A3D948C00C0E4FF /* EntainHomeTaskApp.swift */,
+				EF0553812A3D948C00C0E4FF /* ContentView.swift */,
+				EF0553832A3D948D00C0E4FF /* Assets.xcassets */,
+				EF0553852A3D948D00C0E4FF /* Preview Content */,
+			);
+			path = EntainHomeTask;
+			sourceTree = "<group>";
+		};
+		EF0553852A3D948D00C0E4FF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF0553862A3D948D00C0E4FF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF05538F2A3D948E00C0E4FF /* EntainHomeTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF0553902A3D948E00C0E4FF /* EntainHomeTaskTests.swift */,
+			);
+			path = EntainHomeTaskTests;
+			sourceTree = "<group>";
+		};
+		EF0553992A3D948E00C0E4FF /* EntainHomeTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF05539A2A3D948E00C0E4FF /* EntainHomeTaskUITests.swift */,
+				EF05539C2A3D948E00C0E4FF /* EntainHomeTaskUITestsLaunchTests.swift */,
+			);
+			path = EntainHomeTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF05537B2A3D948C00C0E4FF /* EntainHomeTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0553A02A3D948E00C0E4FF /* Build configuration list for PBXNativeTarget "EntainHomeTask" */;
+			buildPhases = (
+				EF0553782A3D948C00C0E4FF /* Sources */,
+				EF0553792A3D948C00C0E4FF /* Frameworks */,
+				EF05537A2A3D948C00C0E4FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EntainHomeTask;
+			productName = EntainHomeTask;
+			productReference = EF05537C2A3D948C00C0E4FF /* EntainHomeTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF05538B2A3D948E00C0E4FF /* EntainHomeTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0553A32A3D948E00C0E4FF /* Build configuration list for PBXNativeTarget "EntainHomeTaskTests" */;
+			buildPhases = (
+				EF0553882A3D948E00C0E4FF /* Sources */,
+				EF0553892A3D948E00C0E4FF /* Frameworks */,
+				EF05538A2A3D948E00C0E4FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF05538E2A3D948E00C0E4FF /* PBXTargetDependency */,
+			);
+			name = EntainHomeTaskTests;
+			productName = EntainHomeTaskTests;
+			productReference = EF05538C2A3D948E00C0E4FF /* EntainHomeTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF0553952A3D948E00C0E4FF /* EntainHomeTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0553A62A3D948E00C0E4FF /* Build configuration list for PBXNativeTarget "EntainHomeTaskUITests" */;
+			buildPhases = (
+				EF0553922A3D948E00C0E4FF /* Sources */,
+				EF0553932A3D948E00C0E4FF /* Frameworks */,
+				EF0553942A3D948E00C0E4FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF0553982A3D948E00C0E4FF /* PBXTargetDependency */,
+			);
+			name = EntainHomeTaskUITests;
+			productName = EntainHomeTaskUITests;
+			productReference = EF0553962A3D948E00C0E4FF /* EntainHomeTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF0553742A3D948C00C0E4FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EF05537B2A3D948C00C0E4FF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EF05538B2A3D948E00C0E4FF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EF05537B2A3D948C00C0E4FF;
+					};
+					EF0553952A3D948E00C0E4FF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EF05537B2A3D948C00C0E4FF;
+					};
+				};
+			};
+			buildConfigurationList = EF0553772A3D948C00C0E4FF /* Build configuration list for PBXProject "EntainHomeTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF0553732A3D948C00C0E4FF;
+			productRefGroup = EF05537D2A3D948C00C0E4FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF05537B2A3D948C00C0E4FF /* EntainHomeTask */,
+				EF05538B2A3D948E00C0E4FF /* EntainHomeTaskTests */,
+				EF0553952A3D948E00C0E4FF /* EntainHomeTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF05537A2A3D948C00C0E4FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0553872A3D948D00C0E4FF /* Preview Assets.xcassets in Resources */,
+				EF0553842A3D948D00C0E4FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF05538A2A3D948E00C0E4FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0553942A3D948E00C0E4FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF0553782A3D948C00C0E4FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0553822A3D948C00C0E4FF /* ContentView.swift in Sources */,
+				EF0553802A3D948C00C0E4FF /* EntainHomeTaskApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0553882A3D948E00C0E4FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0553912A3D948E00C0E4FF /* EntainHomeTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0553922A3D948E00C0E4FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF05539B2A3D948E00C0E4FF /* EntainHomeTaskUITests.swift in Sources */,
+				EF05539D2A3D948E00C0E4FF /* EntainHomeTaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF05538E2A3D948E00C0E4FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF05537B2A3D948C00C0E4FF /* EntainHomeTask */;
+			targetProxy = EF05538D2A3D948E00C0E4FF /* PBXContainerItemProxy */;
+		};
+		EF0553982A3D948E00C0E4FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF05537B2A3D948C00C0E4FF /* EntainHomeTask */;
+			targetProxy = EF0553972A3D948E00C0E4FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF05539E2A3D948E00C0E4FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF05539F2A3D948E00C0E4FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF0553A12A3D948E00C0E4FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EntainHomeTask/Preview Content\"";
+				DEVELOPMENT_TEAM = H5FMC68YF4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yin.hua.EntainHomeTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF0553A22A3D948E00C0E4FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EntainHomeTask/Preview Content\"";
+				DEVELOPMENT_TEAM = H5FMC68YF4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yin.hua.EntainHomeTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF0553A42A3D948E00C0E4FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H5FMC68YF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yin.hua.EntainHomeTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EntainHomeTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EntainHomeTask";
+			};
+			name = Debug;
+		};
+		EF0553A52A3D948E00C0E4FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H5FMC68YF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yin.hua.EntainHomeTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EntainHomeTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EntainHomeTask";
+			};
+			name = Release;
+		};
+		EF0553A72A3D948E00C0E4FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H5FMC68YF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yin.hua.EntainHomeTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EntainHomeTask;
+			};
+			name = Debug;
+		};
+		EF0553A82A3D948E00C0E4FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H5FMC68YF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yin.hua.EntainHomeTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EntainHomeTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF0553772A3D948C00C0E4FF /* Build configuration list for PBXProject "EntainHomeTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF05539E2A3D948E00C0E4FF /* Debug */,
+				EF05539F2A3D948E00C0E4FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0553A02A3D948E00C0E4FF /* Build configuration list for PBXNativeTarget "EntainHomeTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0553A12A3D948E00C0E4FF /* Debug */,
+				EF0553A22A3D948E00C0E4FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0553A32A3D948E00C0E4FF /* Build configuration list for PBXNativeTarget "EntainHomeTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0553A42A3D948E00C0E4FF /* Debug */,
+				EF0553A52A3D948E00C0E4FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0553A62A3D948E00C0E4FF /* Build configuration list for PBXNativeTarget "EntainHomeTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0553A72A3D948E00C0E4FF /* Debug */,
+				EF0553A82A3D948E00C0E4FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF0553742A3D948C00C0E4FF /* Project object */;
+}
