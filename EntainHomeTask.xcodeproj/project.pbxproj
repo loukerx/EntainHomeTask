@@ -20,6 +20,9 @@
 		EF0553B62A3D967A00C0E4FF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0553B52A3D967A00C0E4FF /* HomeViewModel.swift */; };
 		EF0553B92A3DB29C00C0E4FF /* TimeInterval+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0553B82A3DB29C00C0E4FF /* TimeInterval+Extension.swift */; };
 		EF0553BE2A3E7ED800C0E4FF /* FiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0553BD2A3E7ED700C0E4FF /* FiltersView.swift */; };
+		EF0553C02A3E8C9000C0E4FF /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0553BF2A3E8C9000C0E4FF /* HomeViewModelTests.swift */; };
+		EF0553C22A3E981600C0E4FF /* RaceSummaryMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = EF0553C12A3E981600C0E4FF /* RaceSummaryMockData.json */; };
+		EFFCDDA82A3F2787003FFB6D /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFCDDA72A3F2787003FFB6D /* APIClientTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,10 @@
 		EF0553B82A3DB29C00C0E4FF /* TimeInterval+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Extension.swift"; sourceTree = "<group>"; };
 		EF0553BC2A3DD1E200C0E4FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		EF0553BD2A3E7ED700C0E4FF /* FiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersView.swift; sourceTree = "<group>"; };
+		EF0553BF2A3E8C9000C0E4FF /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		EF0553C12A3E981600C0E4FF /* RaceSummaryMockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RaceSummaryMockData.json; sourceTree = "<group>"; };
+		EF0553C52A3EE0CD00C0E4FF /* EntainHomeTask.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EntainHomeTask.xctestplan; sourceTree = "<group>"; };
+		EFFCDDA72A3F2787003FFB6D /* APIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +94,7 @@
 		EF0553732A3D948C00C0E4FF = {
 			isa = PBXGroup;
 			children = (
+				EF0553C52A3EE0CD00C0E4FF /* EntainHomeTask.xctestplan */,
 				EF05537E2A3D948C00C0E4FF /* EntainHomeTask */,
 				EF05538F2A3D948E00C0E4FF /* EntainHomeTaskTests */,
 				EF0553992A3D948E00C0E4FF /* EntainHomeTaskUITests */,
@@ -131,7 +139,10 @@
 		EF05538F2A3D948E00C0E4FF /* EntainHomeTaskTests */ = {
 			isa = PBXGroup;
 			children = (
+				EFFCDDA72A3F2787003FFB6D /* APIClientTests.swift */,
 				EF0553902A3D948E00C0E4FF /* EntainHomeTaskTests.swift */,
+				EF0553BF2A3E8C9000C0E4FF /* HomeViewModelTests.swift */,
+				EF0553C12A3E981600C0E4FF /* RaceSummaryMockData.json */,
 			);
 			path = EntainHomeTaskTests;
 			sourceTree = "<group>";
@@ -300,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF0553C22A3E981600C0E4FF /* RaceSummaryMockData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +344,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFFCDDA82A3F2787003FFB6D /* APIClientTests.swift in Sources */,
 				EF0553912A3D948E00C0E4FF /* EntainHomeTaskTests.swift in Sources */,
+				EF0553C02A3E8C9000C0E4FF /* HomeViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

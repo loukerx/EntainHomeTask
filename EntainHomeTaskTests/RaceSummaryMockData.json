@@ -1,0 +1,80 @@
+[
+    {
+        "race_id": "1358e035-ab89-4a04-93d2-5bed6d45df71",
+        "race_name": "Sportsbet Final (1-4 Wins) (Vicgreys)",
+        "race_number": 5,
+        "meeting_id": "b8dd1fc2-daea-434d-9302-500efe40c499",
+        "meeting_name": "Geelong",
+        "category_id": "9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+        "advertised_start": {
+            "seconds": 1686910620
+        }
+    },
+    {
+        "race_id": "2dd17a5f-f2f5-4376-93c1-fbef885232cc",
+        "race_name": "Ladbrokes Racing Centre Stakes",
+        "race_number": 8,
+        "meeting_id": "0d77d036-dada-41d4-8795-7ae816536a03",
+        "meeting_name": "Launceston",
+        "category_id": "161d9be2-e909-4326-8c2c-35ed71fb460b",
+        "advertised_start": {
+            "seconds": 1686910800
+        }
+    },
+    {
+        "race_id": "7841ed8d-e83e-466c-8b88-b53d19252614",
+        "race_name": "Prix De La Fete De La Ville - Monte",
+        "race_number": 2,
+        "meeting_id": "7bb41941-53f0-489a-bee4-8769de4ae40d",
+        "meeting_name": "Amiens",
+        "category_id": "161d9be2-e909-4326-8c2c-35ed71fb460b",
+        "advertised_start": {
+            "seconds": 1686910800
+        }
+    },
+    {
+        "race_id": "fb3cc812-196d-4cc1-9427-4a4c1fb8e87c",
+        "race_name": "Race 10 - 1400",
+        "race_number": 10,
+        "meeting_id": "99a860fb-7ea4-4aa7-8545-360c6a8b93c5",
+        "meeting_name": "Sonoda",
+        "category_id": "4a2788f8-e825-4d36-9894-efd4baf1cfae",
+        "advertised_start": {
+            "seconds": 1686910800
+        }
+    },
+    {
+        "race_id": "e261065b-9028-45e9-b127-be949634926c",
+        "race_name": "500Mtrs (A7)",
+        "race_number": 5,
+        "meeting_id": "4ac7a26e-a73e-40e1-ae09-de5de03f0d52",
+        "meeting_name": "Hove Bags",
+        "category_id": "9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+        "advertised_start": {
+            "seconds": 1686911040
+        }
+    },
+    {
+        "race_id": "a41ca720-99c0-4d32-a6bd-b24e08fda9b9",
+        "race_name": "Bowyer Air",
+        "race_number": 6,
+        "meeting_id": "2816209c-b970-47e7-96f0-25671ad6c4a0",
+        "meeting_name": "Wagga",
+        "category_id": "9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+        "advertised_start": {
+            "seconds": 1686911100
+        }
+    },
+    {
+        "race_id": "95c4a418-3571-48a2-9b36-08c3d180538a",
+        "race_name": "Race 2",
+        "race_number": 2,
+        "meeting_id": "89c87348-c227-4666-9a7e-3a5f98480dc1",
+        "meeting_name": "Kinsley Bags",
+        "category_id": "9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+        "advertised_start": {
+            "seconds": 1686910860
+        }
+    }
+    
+]

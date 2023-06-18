@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "D9DB9E95-CCFC-4958-BF78-3155024C1989",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:EntainHomeTask.xcodeproj",
+      "identifier" : "EF05537B2A3D948C00C0E4FF",
+      "name" : "EntainHomeTask"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:EntainHomeTask.xcodeproj",
+        "identifier" : "EF05538B2A3D948E00C0E4FF",
+        "name" : "EntainHomeTaskTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:EntainHomeTask.xcodeproj",
+        "identifier" : "EF0553952A3D948E00C0E4FF",
+        "name" : "EntainHomeTaskUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

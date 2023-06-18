@@ -10,9 +10,9 @@ import Combine
 
 class HomeViewModel: ObservableObject {
     @Published var filteredRaceSummaries: [RaceSummary]?
-    private var raceSummaries: [RaceSummary]?
+    var raceSummaries: [RaceSummary]?
     private var cancellables = Set<AnyCancellable>()
-    private let apiClient: APIClient
+    private let apiClient: APIClientProtocol
     private var categoryIds: Set<String> = []
     
     enum Category {
@@ -43,7 +43,7 @@ class HomeViewModel: ObservableObject {
         }
     }
     
-    init(apiClient: APIClient) {
+    init(apiClient: APIClientProtocol) {
         self.apiClient = apiClient
     }
     

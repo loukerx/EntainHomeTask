@@ -8,14 +8,23 @@
 import Foundation
 import Combine
 
-struct APIClient {
+protocol APIClientProtocol {
+    func fetchRaces(urlString: String) -> AnyPublisher<ApiResponse, Error>
+}
+
+struct APIClient: APIClientProtocol {
+    private let session: URLSession
+    
+    init(session: URLSession = .shared) {
+        self.session = session
+    }
 
     func fetchRaces(urlString: String) -> AnyPublisher<ApiResponse, Error> {
         guard let url = URL(string: urlString) else {
             fatalError("Invalid URL")
         }
         
-        return URLSession.shared.dataTaskPublisher(for: url)
+        return session.dataTaskPublisher(for: url)
             .tryMap { (data, response) -> Data in
                 guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else {
                     throw URLError(.badServerResponse)
