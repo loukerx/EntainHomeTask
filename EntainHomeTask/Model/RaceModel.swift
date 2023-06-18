@@ -15,7 +15,7 @@ struct ApiResponse: Codable {
 
 struct RaceModel: Codable {
     let nextToGoIds: [String]
-    let raceSummaries: [String: RaceSummary]
+    let raceSummaries: [String: RaceSummary]?
 
     enum CodingKeys: String, CodingKey {
         case nextToGoIds = "next_to_go_ids"
@@ -25,7 +25,7 @@ struct RaceModel: Codable {
 
 struct RaceSummary: Codable {
     let raceId: String
-    let raceName: String
+    let raceName: String?
     let raceNumber: Int
     let meetingId: String
     let meetingName: String

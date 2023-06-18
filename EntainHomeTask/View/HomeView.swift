@@ -18,16 +18,19 @@ struct HomeView: View {
 
     var body: some View {
         NavigationView {
-            Group {
-                if let raceSummaries = viewModel.raceSummaries {
-                    List(raceSummaries, id: \.raceId) { raceSummary in
-                        CardView(raceSummary: raceSummary)
+            VStack {
+                FiltersView(viewModel: viewModel)
+                Group {
+                    if let raceSummaries = viewModel.filteredRaceSummaries {
+                        List(raceSummaries, id: \.raceId) { raceSummary in
+                            CardView(raceSummary: raceSummary, homeViewModel: viewModel)
+                        }
+                        .refreshable {
+                            viewModel.fetchRaces()
+                        }
+                    } else {
+                        ProgressView(Strings.loading)
                     }
-                    .refreshable {
-                        viewModel.refreshData()
-                    }
-                } else {
-                    ProgressView(Strings.loading)
                 }
             }
             .navigationBarTitle(Strings.navTitle)

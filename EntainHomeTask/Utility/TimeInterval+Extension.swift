@@ -8,9 +8,20 @@
 import Foundation
 
 extension TimeInterval {
+    
+    // If it returns true, display this summary
+    func isLessThanOneMinutePassed() -> Bool {
+        let now = Date().timeIntervalSince1970
+        return (self - now) > -60
+    }
+    
+    func isOneMinutePassed() -> Bool {
+        return self <= -60
+    }
+
     func getDuration() -> TimeInterval {
         let now = Date().timeIntervalSince1970
-        return TimeInterval(self) - now
+        return self - now
     }
 
     func formattedDuration() -> String {

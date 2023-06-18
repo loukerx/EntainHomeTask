@@ -10,11 +10,15 @@ import Combine
 
 struct CardView: View {
     let raceSummary: RaceSummary
+    @ObservedObject var homeViewModel: HomeViewModel
+
+    // countdown is the difference from Date().timeIntervalSince1970
     @State private var countdown: TimeInterval
     @State private var cancellable: AnyCancellable? = nil
     
-    init(raceSummary: RaceSummary) {
+    init(raceSummary: RaceSummary, homeViewModel: HomeViewModel) {
         self.raceSummary = raceSummary
+        self.homeViewModel = homeViewModel
         let duration = raceSummary.advertisedStart.seconds.getDuration()
         self._countdown = State(initialValue: duration)
     }
@@ -39,6 +43,10 @@ struct CardView: View {
             let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
             self.cancellable = timer.sink { _ in
                 self.countdown -= 1
+                // Remove races that are one minute past the advertised start
+                if self.countdown.isOneMinutePassed() {
+                    self.homeViewModel.fetchRaces()
+                }
             }
         }
         .onDisappear {
@@ -50,10 +58,10 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        let mockAdvertisedStart = AdvertisedStart(seconds: 1686997140)
+        let mockAdvertisedStart = AdvertisedStart(seconds: 1687046040)
         let mockRaceSummary = RaceSummary(raceId: "1", raceName: "Race 1", raceNumber: 1, meetingId: "1", meetingName: "Meeting 1", categoryId: "1", advertisedStart: mockAdvertisedStart)
-        
-        CardView(raceSummary: mockRaceSummary)
+        let homeViewModel = HomeViewModel(apiClient: APIClient())
+        CardView(raceSummary: mockRaceSummary, homeViewModel: homeViewModel)
             .previewLayout(.sizeThatFits)
     }
 }

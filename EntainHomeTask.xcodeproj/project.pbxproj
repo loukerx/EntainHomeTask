@@ -19,6 +19,7 @@
 		EF0553B42A3D965100C0E4FF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0553B32A3D965100C0E4FF /* CardView.swift */; };
 		EF0553B62A3D967A00C0E4FF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0553B52A3D967A00C0E4FF /* HomeViewModel.swift */; };
 		EF0553B92A3DB29C00C0E4FF /* TimeInterval+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0553B82A3DB29C00C0E4FF /* TimeInterval+Extension.swift */; };
+		EF0553BE2A3E7ED800C0E4FF /* FiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0553BD2A3E7ED700C0E4FF /* FiltersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		EF0553B52A3D967A00C0E4FF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		EF0553B82A3DB29C00C0E4FF /* TimeInterval+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Extension.swift"; sourceTree = "<group>"; };
 		EF0553BC2A3DD1E200C0E4FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EF0553BD2A3E7ED700C0E4FF /* FiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,8 +164,9 @@
 		EF0553AB2A3D951C00C0E4FF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				EF0553B12A3D963A00C0E4FF /* HomeView.swift */,
 				EF0553B32A3D965100C0E4FF /* CardView.swift */,
+				EF0553BD2A3E7ED700C0E4FF /* FiltersView.swift */,
+				EF0553B12A3D963A00C0E4FF /* HomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				EF0553B92A3DB29C00C0E4FF /* TimeInterval+Extension.swift in Sources */,
 				EF0553B62A3D967A00C0E4FF /* HomeViewModel.swift in Sources */,
 				EF0553B22A3D963A00C0E4FF /* HomeView.swift in Sources */,
+				EF0553BE2A3E7ED800C0E4FF /* FiltersView.swift in Sources */,
 				EF0553802A3D948C00C0E4FF /* EntainHomeTaskApp.swift in Sources */,
 				EF0553B02A3D95D700C0E4FF /* APIClient.swift in Sources */,
 				EF0553B42A3D965100C0E4FF /* CardView.swift in Sources */,
