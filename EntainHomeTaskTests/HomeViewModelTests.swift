@@ -121,27 +121,6 @@ class MockAPIClient: APIClientProtocol {
             .setFailureType(to: Error.self)
             .eraseToAnyPublisher()
     }
-    
-
-    
-    
-    func loadMockRaceSummaryData() -> ApiResponse? {
-        guard let fileURL = Bundle(for: type(of: self)).url(forResource: "apiResponse", withExtension: "json") else {
-            print("Failed to locate RaceSummaryMockData.json")
-            return nil
-        }
-        
-        do {
-            let jsonData = try Data(contentsOf: fileURL)
-            let decoder = JSONDecoder()
-            let apiResponse = try decoder.decode(ApiResponse.self, from: jsonData)
-            
-            return apiResponse
-        } catch {
-            print("Error loading race data: \(error)")
-            return nil
-        }
-    }
 }
 
 extension HomeViewModelTests {

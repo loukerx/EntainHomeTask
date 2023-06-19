@@ -7,13 +7,13 @@
 
 import Foundation
 
-struct ApiResponse: Codable {
+struct ApiResponse: Decodable {
     let status: Int
     let data: RaceModel
     let message: String
 }
 
-struct RaceModel: Codable {
+struct RaceModel: Decodable {
     let nextToGoIds: [String]
     let raceSummaries: [String: RaceSummary]?
 
@@ -23,7 +23,7 @@ struct RaceModel: Codable {
     }
 }
 
-struct RaceSummary: Codable {
+struct RaceSummary: Decodable {
     let raceId: String
     let raceName: String?
     let raceNumber: Int
@@ -43,6 +43,6 @@ struct RaceSummary: Codable {
     }
 }
 
-struct AdvertisedStart: Codable {
+struct AdvertisedStart: Decodable {
     let seconds: TimeInterval
 }

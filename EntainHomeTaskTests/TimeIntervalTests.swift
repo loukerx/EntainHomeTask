@@ -42,9 +42,9 @@ class TimeIntervalTests: XCTestCase {
     
     func testFormattedVoiceOverDuration() {
         let timeInterval = 3665.0 // 1 hour, 1 minute and 5 seconds
-        XCTAssertEqual(timeInterval.formattedVoiceOverDuration(), "1hour 1minute 5seconds")
+        XCTAssertEqual(timeInterval.formattedVoiceOverDuration(), "1hour 1minute 5seconds remaining")
         
-        let timeInterval2 = 65.0 // 1 minute and 5 seconds
-        XCTAssertEqual(timeInterval2.formattedVoiceOverDuration(), "1minute 5seconds")
+        let timeInterval2 = -5.0 // 1 minute and 5 seconds
+        XCTAssertEqual(timeInterval2.formattedVoiceOverDuration(), "5seconds passed")
     }
 }

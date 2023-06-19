@@ -21,7 +21,8 @@ struct APIClient: APIClientProtocol {
 
     func fetchRaces(urlString: String) -> AnyPublisher<ApiResponse, Error> {
         guard let url = URL(string: urlString) else {
-            fatalError("Invalid URL")
+            return Fail(error: URLError(.badURL))
+                       .eraseToAnyPublisher()
         }
         
         return session.dataTaskPublisher(for: url)

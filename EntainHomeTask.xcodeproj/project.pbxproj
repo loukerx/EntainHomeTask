@@ -10,7 +10,6 @@
 		EF0553802A3D948C00C0E4FF /* EntainHomeTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05537F2A3D948C00C0E4FF /* EntainHomeTaskApp.swift */; };
 		EF0553842A3D948D00C0E4FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0553832A3D948D00C0E4FF /* Assets.xcassets */; };
 		EF0553872A3D948D00C0E4FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0553862A3D948D00C0E4FF /* Preview Assets.xcassets */; };
-		EF0553912A3D948E00C0E4FF /* EntainHomeTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0553902A3D948E00C0E4FF /* EntainHomeTaskTests.swift */; };
 		EF05539B2A3D948E00C0E4FF /* EntainHomeTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05539A2A3D948E00C0E4FF /* EntainHomeTaskUITests.swift */; };
 		EF05539D2A3D948E00C0E4FF /* EntainHomeTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05539C2A3D948E00C0E4FF /* EntainHomeTaskUITestsLaunchTests.swift */; };
 		EF0553AE2A3D954200C0E4FF /* RaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0553AD2A3D954200C0E4FF /* RaceModel.swift */; };
@@ -49,7 +48,6 @@
 		EF0553832A3D948D00C0E4FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF0553862A3D948D00C0E4FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF05538C2A3D948E00C0E4FF /* EntainHomeTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntainHomeTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF0553902A3D948E00C0E4FF /* EntainHomeTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntainHomeTaskTests.swift; sourceTree = "<group>"; };
 		EF0553962A3D948E00C0E4FF /* EntainHomeTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntainHomeTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF05539A2A3D948E00C0E4FF /* EntainHomeTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntainHomeTaskUITests.swift; sourceTree = "<group>"; };
 		EF05539C2A3D948E00C0E4FF /* EntainHomeTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntainHomeTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -142,7 +140,6 @@
 			isa = PBXGroup;
 			children = (
 				EFFCDDA72A3F2787003FFB6D /* APIClientTests.swift */,
-				EF0553902A3D948E00C0E4FF /* EntainHomeTaskTests.swift */,
 				EF0553BF2A3E8C9000C0E4FF /* HomeViewModelTests.swift */,
 				EFFCDDAD2A3FE024003FFB6D /* TimeIntervalTests.swift */,
 				EF0553C12A3E981600C0E4FF /* RaceSummaryMockData.json */,
@@ -349,7 +346,6 @@
 			files = (
 				EFFCDDA82A3F2787003FFB6D /* APIClientTests.swift in Sources */,
 				EFFCDDAE2A3FE024003FFB6D /* TimeIntervalTests.swift in Sources */,
-				EF0553912A3D948E00C0E4FF /* EntainHomeTaskTests.swift in Sources */,
 				EF0553C02A3E8C9000C0E4FF /* HomeViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
