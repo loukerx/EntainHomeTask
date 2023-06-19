@@ -36,8 +36,10 @@ struct CardView: View {
                     .font(.body)
                     .fontWeight(.medium)
                     .multilineTextAlignment(.trailing)
+                    .accessibilityLabel(Text(countdown.formattedVoiceOverDuration()))
             }
         }
+        .accessibilityElement(children: .combine)
         .onAppear {
             // Start the timer only when the view appears
             let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()

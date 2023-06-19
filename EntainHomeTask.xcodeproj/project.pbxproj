@@ -23,6 +23,7 @@
 		EF0553C02A3E8C9000C0E4FF /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0553BF2A3E8C9000C0E4FF /* HomeViewModelTests.swift */; };
 		EF0553C22A3E981600C0E4FF /* RaceSummaryMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = EF0553C12A3E981600C0E4FF /* RaceSummaryMockData.json */; };
 		EFFCDDA82A3F2787003FFB6D /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFCDDA72A3F2787003FFB6D /* APIClientTests.swift */; };
+		EFFCDDAE2A3FE024003FFB6D /* TimeIntervalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFCDDAD2A3FE024003FFB6D /* TimeIntervalTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		EF0553C12A3E981600C0E4FF /* RaceSummaryMockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RaceSummaryMockData.json; sourceTree = "<group>"; };
 		EF0553C52A3EE0CD00C0E4FF /* EntainHomeTask.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EntainHomeTask.xctestplan; sourceTree = "<group>"; };
 		EFFCDDA72A3F2787003FFB6D /* APIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTests.swift; sourceTree = "<group>"; };
+		EFFCDDAD2A3FE024003FFB6D /* TimeIntervalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				EFFCDDA72A3F2787003FFB6D /* APIClientTests.swift */,
 				EF0553902A3D948E00C0E4FF /* EntainHomeTaskTests.swift */,
 				EF0553BF2A3E8C9000C0E4FF /* HomeViewModelTests.swift */,
+				EFFCDDAD2A3FE024003FFB6D /* TimeIntervalTests.swift */,
 				EF0553C12A3E981600C0E4FF /* RaceSummaryMockData.json */,
 			);
 			path = EntainHomeTaskTests;
@@ -345,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFFCDDA82A3F2787003FFB6D /* APIClientTests.swift in Sources */,
+				EFFCDDAE2A3FE024003FFB6D /* TimeIntervalTests.swift in Sources */,
 				EF0553912A3D948E00C0E4FF /* EntainHomeTaskTests.swift in Sources */,
 				EF0553C02A3E8C9000C0E4FF /* HomeViewModelTests.swift in Sources */,
 			);

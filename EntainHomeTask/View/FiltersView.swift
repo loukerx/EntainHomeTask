@@ -22,10 +22,12 @@ struct FiltersView: View {
                 .onChange(of: isOptionASelected) { isSelected in
                     updateSelectedOptions(HomeViewModel.Category.greyhound.categoryID, isSelected: isSelected)
                 }
+
             Toggle(HomeViewModel.Category.harness.name, isOn: $isOptionBSelected)
                 .onChange(of: isOptionBSelected) { isSelected in
                     updateSelectedOptions(HomeViewModel.Category.harness.categoryID, isSelected: isSelected)
                 }
+
             Toggle(HomeViewModel.Category.horse.name, isOn: $isOptionCSelected)
                 .onChange(of: isOptionCSelected) { isSelected in
                     updateSelectedOptions(HomeViewModel.Category.horse.categoryID, isSelected: isSelected)

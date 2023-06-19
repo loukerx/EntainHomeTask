@@ -15,6 +15,7 @@ class HomeViewModel: ObservableObject {
     private let apiClient: APIClientProtocol
     private var categoryIds: Set<String> = []
     
+    // Filter
     enum Category {
         case greyhound
         case harness
