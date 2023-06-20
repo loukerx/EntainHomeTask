@@ -60,7 +60,7 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        let mockAdvertisedStart = AdvertisedStart(seconds: 1687046040)
+        let mockAdvertisedStart = AdvertisedStart(seconds: 1688046040)
         let mockRaceSummary = RaceSummary(raceId: "1", raceName: "Race 1", raceNumber: 1, meetingId: "1", meetingName: "Meeting 1", categoryId: "1", advertisedStart: mockAdvertisedStart)
         let homeViewModel = HomeViewModel(apiClient: APIClient())
         CardView(raceSummary: mockRaceSummary, homeViewModel: homeViewModel)
