@@ -25,12 +25,18 @@ struct CardView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 5) {
+          
             Text(raceSummary.meetingName)
                 .font(.title)
                 .fontWeight(.bold)
             HStack {
                 Text("Race number: \(raceSummary.raceNumber)")
                     .font(.body)
+                Image(systemName: "speaker.wave.3", variableValue: 0.3)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 30, height: 30)
+                    .foregroundColor(.yellow)
                 Spacer()
                 Text(countdown.formattedDuration())
                     .font(.body)

@@ -23,7 +23,7 @@ struct HomeView: View {
                 Group {
                     if let raceSummaries = viewModel.filteredRaceSummaries {
                         List(raceSummaries, id: \.raceId) { raceSummary in
-                            CardView(raceSummary: raceSummary, homeViewModel: viewModel)
+                            CardView(raceSummary: raceSummary, homeViewModel:  viewModel)
                         }
                         .refreshable {
                             viewModel.fetchRaces()
